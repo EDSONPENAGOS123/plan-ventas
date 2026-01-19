@@ -44,12 +44,17 @@
       padding:10px 12px;border-radius:14px;font-size:12px;cursor:pointer
     }
     .title{margin:0;font-size:16px}
-    .sub{margin:8px 0 0 0;color:var(--muted);font-size:12px;line-height:1.4}
     .panel{
       background:rgba(16,24,39,.72);
       border:1px solid var(--border);
       border-radius:18px;
       padding:14px;margin-top:12px
+    }
+    .intro{
+      margin:0 0 10px 0;
+      color:var(--muted);
+      font-size:12px;
+      line-height:1.45
     }
     .preview{display:grid;grid-template-columns:repeat(12,1fr);gap:12px;margin-top:12px}
     .tile{
@@ -85,15 +90,15 @@
       <div class="card" data-open="calidad" role="button" aria-label="Abrir Calidad de contenido">
         <div>
           <h3>Calidad de contenido</h3>
-          <p>Muestras de la calidad del contenido a subir.</p>
+          <p>Tu contenido puede verse así: limpio, llamativo y listo para vender.</p>
         </div>
         <div class="meta"><span class="dot"></span> 4 videos • 3 fotos</div>
       </div>
 
-      <div class="card" data-open="mockup" role="button" aria-label="Abrir Mockup IG y TikTok">
+      <div class="card" data-open="mockup" role="button" aria-label="Abrir IG y TikTok">
         <div>
-          <h3>Mockup IG & TikTok</h3>
-          <p>Muestra de cómo se proyectan las redes sociales.</p>
+          <h3>IG & TikTok</h3>
+          <p>Planeamos una marca y alimentamos tus redes con constancia.</p>
         </div>
         <div class="meta"><span class="dot"></span> 2 imágenes</div>
       </div>
@@ -101,7 +106,7 @@
       <div class="card" data-open="chatbot" role="button" aria-label="Abrir Chatbot">
         <div>
           <h3>Chatbot</h3>
-          <p>Así funcionarán los chats según las bases de información suministradas.</p>
+          <p>Haz tus ventas y chats más eficientes para vender más.</p>
         </div>
         <div class="meta"><span class="dot"></span> 1 imagen</div>
       </div>
@@ -109,7 +114,7 @@
       <div class="card" data-open="websimple" role="button" aria-label="Abrir Web sencilla">
         <div>
           <h3>Web sencilla</h3>
-          <p>Así se verá una web sencilla con fotos limitadas y resumen de productos.</p>
+          <p>Ten algo atractivo y propio para mostrarle a tus clientes.</p>
         </div>
         <div class="meta"><span class="dot"></span> 1 imagen</div>
       </div>
@@ -117,7 +122,7 @@
       <div class="card" data-open="ecommerce" role="button" aria-label="Abrir Ecommerce">
         <div>
           <h3>Ecommerce</h3>
-          <p>Página funcional: compra con carrito y pedidos al instante.</p>
+          <p>Lleva tus ventas al siguiente nivel con una página especializada.</p>
         </div>
         <div class="meta"><span class="dot"></span> 2 imágenes</div>
       </div>
@@ -131,8 +136,7 @@
         <span></span>
       </div>
       <div class="panel">
-        <p class="sub">Muestras de la calidad del contenido a subir.</p>
-
+        <p class="intro">Tu contenido puede verse así: limpio, llamativo y listo para vender.</p>
         <div class="preview">
           <div class="tile">
             <video controls preload="metadata" playsinline>
@@ -158,7 +162,6 @@
             </video>
             <div class="cap">Video 4</div>
           </div>
-
           <div class="tile"><img src="media/fotos/p1.jpg" alt="Foto 1"><div class="cap">Foto 1</div></div>
           <div class="tile"><img src="media/fotos/p2.jpg" alt="Foto 2"><div class="cap">Foto 2</div></div>
           <div class="tile"><img src="media/fotos/p3.jpg" alt="Foto 3"><div class="cap">Foto 3</div></div>
@@ -167,14 +170,14 @@
     </section>
 
     <!-- MOCKUP -->
-    <section id="mockup" class="section" aria-label="Mockup IG y TikTok">
+    <section id="mockup" class="section" aria-label="IG y TikTok">
       <div class="topbar">
         <button class="back" type="button">← Volver</button>
-        <h2 class="title">Mockup IG & TikTok</h2>
+        <h2 class="title">IG & TikTok</h2>
         <span></span>
       </div>
       <div class="panel">
-        <p class="sub">Muestra de cómo se proyectan las redes sociales.</p>
+        <p class="intro">Planeamos una marca y alimentamos tus redes con constancia.</p>
         <div class="preview">
           <div class="tile"><img src="media/mockup/ig1.jpg" alt="Mockup 1"><div class="cap">Mockup 1</div></div>
           <div class="tile"><img src="media/mockup/ig2.jpg" alt="Mockup 2"><div class="cap">Mockup 2</div></div>
@@ -190,7 +193,7 @@
         <span></span>
       </div>
       <div class="panel">
-        <p class="sub">Así funcionarán los chats según las bases de información suministradas.</p>
+        <p class="intro">Haz tus ventas y chats más eficientes para vender más.</p>
         <div class="preview">
           <div class="tile"><img src="media/chatbot/b1.jpg" alt="Chatbot"><div class="cap">Vista del chatbot</div></div>
         </div>
@@ -205,7 +208,7 @@
         <span></span>
       </div>
       <div class="panel">
-        <p class="sub">Así se verá una web sencilla con fotos limitadas y resumen de productos.</p>
+        <p class="intro">Ten algo atractivo y propio para mostrarle a tus clientes.</p>
         <div class="preview">
           <div class="tile"><img src="media/web_sencilla/ws1.jpg" alt="Web sencilla"><div class="cap">Vista web sencilla</div></div>
         </div>
@@ -220,7 +223,7 @@
         <span></span>
       </div>
       <div class="panel">
-        <p class="sub">Página funcional: compra con carrito y pedidos al instante.</p>
+        <p class="intro">Lleva tus ventas al siguiente nivel con una página especializada.</p>
         <div class="preview">
           <div class="tile"><img src="media/ecommerce/ec1.jpg" alt="Ecommerce 1"><div class="cap">Ecommerce 1</div></div>
           <div class="tile"><img src="media/ecommerce/ec2.jpg" alt="Ecommerce 2"><div class="cap">Ecommerce 2</div></div>
@@ -228,7 +231,7 @@
       </div>
     </section>
 
-    <footer id="foot">© Plan Digital</footer>
+    <footer>© Plan Digital</footer>
   </div>
 
   <script>
@@ -261,7 +264,6 @@
       btn.addEventListener("click", ()=>backHome());
     });
 
-    // Deep link
     const hash = (location.hash||"").replace("#","").trim();
     if(hash){
       const target = document.getElementById(hash);
